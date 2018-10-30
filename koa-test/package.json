@@ -1,0 +1,23 @@
+{
+  "name": "koa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn  --no-notify  server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-router": "^7.0.32",
+    "@types/mssql": "^4.0.10",
+    "koa": "^2.6.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "mssql": "^4.2.2"
+  }
+}
